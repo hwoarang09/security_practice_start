@@ -5,10 +5,6 @@ var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 
 const https = require("https");
-const helmet = require("helmet");
-const passport = require("passport");
-const { Strategy } = require("passport-google-oauth20");
-const cookieSession = require("cookie-session");
 
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
